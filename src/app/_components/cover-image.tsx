@@ -2,7 +2,7 @@
 
 import cn from 'classnames';
 import Image from 'next/image';
-import { ViewTransitionsLink as Link } from './view-transitions-link';
+import { ViewTransitionLink as Link } from './view-transition-link';
 
 type Props = {
   title: string;

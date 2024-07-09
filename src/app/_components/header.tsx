@@ -1,7 +1,6 @@
 'use client';
 
 import { startViewTransition } from '@/lib/startViewTransition';
-import { useViewTransitionsRouter } from '@/lib/useViewTransitionsRouter';
 import { useRouter } from 'next/navigation';
 
 const Header = () => {

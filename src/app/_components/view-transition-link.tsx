@@ -1,11 +1,11 @@
-import { useViewTransitionsRouter } from '@/lib/useViewTransitionsRouter';
+import { useViewTransitionRouter } from '@/lib/useViewTransitionRouter';
 import NextLink from 'next/link';
 
-export const ViewTransitionsLink = ({
+export const ViewTransitionLink = ({
   href,
   ...props
 }: React.ComponentProps<typeof NextLink>) => {
-  const router = useViewTransitionsRouter();
+  const router = useViewTransitionRouter();
 
   const handleClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
     e.preventDefault();

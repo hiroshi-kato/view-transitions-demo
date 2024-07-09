@@ -1,7 +1,7 @@
 import { useRouter } from 'next/navigation';
 import { startViewTransition } from './startViewTransition';
 
-export const useViewTransitionsRouter = () => {
+export const useViewTransitionRouter = () => {
   const router = useRouter();
 
   return {
