@@ -7,6 +7,6 @@ export interface ViewTransition {
 
 declare global {
   interface Document {
-    startViewTransition?: (skipTransition) => ViewTransition;
+    startViewTransition?: (cb: () => Promise<void> | void) => ViewTransition;
   }
 }
